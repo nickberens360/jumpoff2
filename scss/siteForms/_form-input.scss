@@ -1,0 +1,17 @@
+/* scss/siteForms/_form-input.scss */
+
+.form-input {
+  height: 50px;
+  border-radius: 0;
+  padding-left: 10px;
+  width: 100%;
+  background: #fff;
+  line-height: 50px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding-top: 0;
+  transition: all 0.1s linear;
+  &:focus {
+    border: none;
+  }
+}

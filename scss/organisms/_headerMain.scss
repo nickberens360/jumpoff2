@@ -1,0 +1,14 @@
+/*scss/organisms/_headerMain.scss*/
+
+
+.headerMain{
+  background: get-color('gray-2');
+  padding: 0 $siteGutter 20px;
+}
+
+.headerMain__inner{
+  @extend .wrap;
+}
+
+
+

@@ -1,0 +1,18 @@
+/* scss/siteForms/_checkbox.scss */
+
+.form-input-check + label span {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  margin: -1px 4px 0 0;
+  vertical-align: middle;
+  background: #fff;
+  border: 1px solid #222222;
+  cursor: pointer;
+  position: relative;
+  top: -2px;
+}
+
+.form-input-check:checked + label span {
+  background: #222222;
+}

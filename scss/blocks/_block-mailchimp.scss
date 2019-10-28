@@ -1,0 +1,23 @@
+/* scss/blocks/_block-mailchimp.scss */
+
+.block-mailchimp {
+  background: get-color('gray-2');
+  position: relative;
+  //border-bottom: 10px solid get-color('teal');
+  text-align: center;
+  .block__inner {
+    max-width: 500px;
+  }
+  .h2, label {
+    color: #fff;
+    display: block;
+  }
+  .form-input {
+    max-width: 400px;
+    margin: auto;
+  }
+}
+
+
+
+

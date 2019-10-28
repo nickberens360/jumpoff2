@@ -1,0 +1,80 @@
+/* scss/blocks/_block-base.scss */
+
+.block {
+  padding: 80px 15px;
+  pre {
+    display: none;
+  }
+}
+
+.block__inner{
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+
+.block__intro {
+  font-size: 24px;
+  position: relative;
+  top: -$base;
+  @media only screen and ( max-width: $textBreak){
+    font-size: 18px;
+  }
+}
+.block-center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.block-right {
+  margin-left: auto;
+}
+
+.block-left {
+  margin-right: auto;
+}
+
+.block__inner-center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.block__inner-left {
+  margin-right: auto;
+}
+
+.block__inner-right {
+  margin-left: auto;
+}
+
+
+
+
+
+.block__heading-center {
+  text-align: center;
+}
+
+.block__heading-right {
+  text-align: right;
+}
+.block__heading-left {
+  text-align: left;
+}
+
+.block__intro-center {
+  text-align: center;
+}
+
+.block__intro-right {
+  text-align: right;
+}
+
+.block__intro-left {
+  text-align: left;
+}
+
+
+
+
+

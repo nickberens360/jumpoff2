@@ -1,0 +1,95 @@
+/* scss/misc/_cleanup.scss */
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body{
+  font-family: $font1;
+  font-size: 18px;
+  color: get-color('text-color');
+  @media only screen and ( max-width: $textBreak){
+    font-size: 16px;
+  }
+}
+img{
+  max-width:100%;
+}
+hr{
+  border:1px solid #ccc;
+}
+
+a {
+  color: get-color('teal');
+}
+
+a:hover, a:focus{
+
+  text-decoration: none;
+}
+
+.google-maps {
+    position: relative;
+    padding-bottom: 75%; // This is the aspect ratio
+    height: 0;
+    overflow: hidden;
+}
+.google-maps iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+}
+
+
+img.alignright { float: right; margin: 0 0 1em 1em; }
+img.alignleft { float: left; margin: 0 1em 1em 0; }
+img.aligncenter { display: block; margin-left: auto; margin-right: auto; }
+.alignright { float: right; }
+.alignleft { float: left; }
+.aligncenter { display: block; margin-left: auto; margin-right: auto; }
+
+
+.gform_wrapper{
+  max-width: 590px !important;
+  input[type=text], select{
+    height: 45px;
+    font-weight: 400 !important;
+  }
+}
+
+.gform_wrapper .top_label input.medium, .gform_wrapper .top_label select.medium {
+  width: 100% !important;
+}
+
+.gform_wrapper label.gfield_label {
+  font-weight: 400 !important;
+  margin-bottom: 0 !important;
+}
+
+.gform_wrapper .gform_footer input.button, .gform_wrapper .gform_footer input[type=submit], .gform_wrapper .gform_page_footer input.button, .gform_wrapper .gform_page_footer input[type=submit] {
+  @extend .btns;
+  border: none;
+}
+.gform_wrapper.gf_browser_chrome .gform_body {
+  width: 100% !important;
+}
+
+.wp-block-embed__wrapper {
+  position: relative;
+  padding-bottom: 56.25%;
+  //padding-top: 30px;
+  height: 0;
+  //overflow: hidden;
+  text-align: center;
+  iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+}

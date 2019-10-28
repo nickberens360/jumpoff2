@@ -1,0 +1,124 @@
+/*scss/atoms/_form-elements.scss*/
+
+/*form {
+  font-family: $font1;
+  font-size: 15px;
+  color: #000;
+  font-weight: bold;
+}*/
+
+
+.formGroup {
+  margin-bottom: $base;
+  position: relative;
+}
+
+
+
+
+
+
+
+.formGroup-check {
+  label {
+    font-weight: normal;
+    font-family: $font1;
+    margin-bottom: 0;
+  }
+}
+
+.form-input-check {
+  display: none;
+}
+
+
+
+::-webkit-input-placeholder {
+  color: #000;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+  color: #000;
+}
+
+::-moz-placeholder { /* Firefox 19+ */
+  color: #000;
+}
+
+:-ms-input-placeholder {
+  color: #000;
+}
+
+.js-floatLabel {
+  position: absolute;
+  top: 10px;
+  left: 8px;
+  font-size: 12px;
+  color: #aaa;
+  transition: all 0.1s linear;
+  opacity: 0;
+  font-weight: bold;
+}
+
+.js-floatLabel.on {
+  color: #4481C4;
+
+}
+
+.js-floatLabel.show {
+  position: absolute;
+  top: 2px;
+  left: 8px;
+  opacity: 1;
+  //background-color: red;
+  width: 100%;
+
+}
+
+.labelOn .form-input {
+  padding-top: 10px;
+}
+
+body {
+  /* the following line fixes a blink in chrome https://code.google.com/p/chromium/issues/detail?id=108025 */
+  -webkit-backface-visibility: hidden;
+}
+
+.selectize-input {
+  overflow: inherit;
+  padding: 14px 8px;
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+.selectize-dropdown, .selectize-input, .selectize-input input {
+  font-family: $font1;
+  font-size: 15px;
+  color: #35363a;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.selectBox {
+  cursor: pointer;
+  .option.active {
+    background: none;
+    color: #35363a;
+  }
+  .option:hover {
+    background: none;
+
+  }
+}
+
+.selectize-control.single .selectize-input:after {
+  content: "";
+  border: none;
+  height: 10px;
+  width: 21px;
+  background-image: url(../img/chev-down.png);
+  background-position: right center;
+  background-repeat: no-repeat;
+}
+

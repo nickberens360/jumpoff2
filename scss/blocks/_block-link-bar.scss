@@ -1,0 +1,148 @@
+/* scss/blocks/_block-link-bar.scss */
+
+/*.block-linkBar {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: get-color('gray-2');
+  margin-bottom: 0;
+  .current-cat {
+    a {
+      color: get-color('orange');
+      font-weight: bold;
+    }
+  }
+
+  a {
+    color: #fff;
+    padding: 30px 0;
+    display: block;
+    text-transform: uppercase;
+  }
+}*/
+
+
+
+nav.greedy {
+  background-color: get-color('gray-2');
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 84px;
+
+  ul.links {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex: 1;
+    overflow: hidden;
+    margin-bottom: 0;
+    padding: 0;
+    .current-cat {
+      a {
+        color: get-color('orange');
+        font-weight: bold;
+      }
+    }
+  }
+
+  ul.links li {
+    flex: none;
+    padding: 0 1rem;
+    list-style: none;
+  }
+
+  ul.links li a {
+    color: #fff;
+    //padding: 30px 0;
+    display: block;
+    text-transform: uppercase;
+  }
+}
+
+nav.greedy h1 {
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  background: #d8d8d8;
+  color: #404040;
+  padding: 0 1.5rem;
+  font-weight: bold;
+}
+
+nav.greedy button {
+  align-self: stretch;
+  transition: all .4s ease-out;
+  padding: 0 1rem 0 1.5rem;
+  outline: 0;
+  border: 0;
+  font-size: 0.9rem;
+  font-weight: bold;
+  background: #1e2d31;
+  color: #fff;
+}
+
+nav.greedy button.hidden {
+  transition: none;
+  width: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+nav.greedy button::after {
+  content: attr(count);
+  display: inline-flex;
+  width: 30px;
+  height: 30px;
+  align-items: center;
+  justify-content: center;
+  background: get-color('teal');
+  color: #fff;
+  box-shadow: 0 0 1px 0 rgba(0,0,0,0.8);
+  border-radius: 50%;
+  font-size: 14px;
+  line-height: 14px;
+  margin-left: 1rem;
+}
+
+
+
+ul.hidden-links {
+  position: absolute;
+  background: get-color('teal');
+  right: 0;
+  min-width: 200px;
+  top: 100%;
+  z-index: 2;
+  list-style: none;
+  padding: 10px 0;
+  box-shadow: -7px 8px 11px -1px rgba(0,0,0,0.24);
+}
+
+ul.hidden-links li a {
+  color: #fff;
+  text-transform: uppercase;
+  padding: 10px;
+  display: block;
+}
+
+ul.hidden-links.hidden {
+  display: none;
+}
+
+ ul.hidden-links li {
+  //padding: 1rem;
+}
+
+@media only screen and ( max-width: 694px ){
+  nav.greedy {
+    height: 65px;
+  }
+}
+
+
+
+
+

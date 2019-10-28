@@ -1,0 +1,104 @@
+<?php
+
+function global_ui_body_styles($isImportant) {
+
+    $bodyStyle = get_acf_block('global_ui', 'typography', 'body_style');
+
+    if($bodyStyle) {
+
+        if($isImportant == true) {
+            $important = ' !important';
+        }
+        else {
+            $important = null;
+        }
+
+
+        echo 'body {';
+
+        if($bodyStyle['font_size']) {
+            echo 'font-size: ' .$bodyStyle['font_size'].'px'.$important.'; ';
+        }
+
+        if($bodyStyle['font_family']) {
+            echo 'font-family: ' .$bodyStyle['font_family'] .''.$important.'; ';
+        }
+
+        if($bodyStyle['text_color']) {
+            echo 'color: ' .$bodyStyle['text_color'] .''.$important.'; ';
+        }
+
+        if($bodyStyle['font_weight']) {
+            echo 'font-weight: ' .$bodyStyle['font_weight'] .''.$important.'; ';
+        }
+
+        echo '}';
+
+    }
+    else {
+        return false;
+    }
+
+}
+
+function global_ui_heading_styles($isImportant) {
+    $headingStyles = get_acf_block('global_ui', 'typography', 'heading_styles');
+
+    if($headingStyles) {
+
+
+        if($isImportant == true) {
+            $important = ' !important';
+        }
+        else {
+            $important = null;
+        }
+
+        foreach ($headingStyles as $heading) {
+            echo $heading["heading_item"].', .'.$heading["heading_item"].' {';
+
+            if($heading["heading_font"]["font_size"]) {
+                echo  'font-size: ' .$heading["heading_font"]["font_size"] .'px'.$important.'; ';
+            }
+
+            if($heading["heading_font"]["font_family"]) {
+                echo  'font-family: ' .$heading["heading_font"]["font_family"] .''.$important.'; ';
+            }
+
+            if($heading["heading_font"]["font_weight"]) {
+                echo  'font-weight: ' .$heading["heading_font"]["font_weight"] .''.$important.'; ';
+            }
+
+            if($heading["heading_font"]["font_style"]) {
+                echo  'font-style: ' .$heading["heading_font"]["font_style"] .''.$important.'; ';
+            }
+
+            if($heading["heading_font"]["line_height"]) {
+                echo  'line-height: ' .$heading["heading_font"]["line_height"] .'px'.$important.'; ';
+            }
+
+            if($heading["heading_font"]["letter_spacing"]) {
+                echo  'letter-spacing: ' .$heading["heading_font"]["letter_spacing"] .'px'.$important.'; ';
+            }
+
+            if($heading["heading_font"]["text_color"]) {
+                echo  'color: ' .$heading["heading_font"]["text_color"] .''.$important.'; ';
+            }
+
+            if($heading["heading_font"]["text_transform"]) {
+                echo  'text-transform: ' .$heading["heading_font"]["text_transform"] .''.$important.'; ';
+            }
+            echo '}';
+
+        }
+
+    }
+    else {
+        return false;
+    }
+
+}
+
+
+
+

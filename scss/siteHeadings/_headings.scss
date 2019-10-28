@@ -1,0 +1,62 @@
+.h1, h1, h2, .h2, .h3, h3, .h4, h4, .h5, h5, .h6, h6 {
+  margin-top: 0;
+  margin-bottom: $base*1.5;
+  font-family: $font2;
+  line-height: 1.25;
+  color: get-color('black');
+  letter-spacing: 1px;
+}
+
+
+.h1, h1 {
+  font-size: 50px;
+  @media only screen and ( max-width: $textBreak){
+    font-size: 40px;
+  }
+}
+
+
+.h2, h2 {
+  font-size: 40px;
+  @media only screen and ( max-width: $textBreak){
+    font-size: 30px;
+  }
+}
+
+.h3, h3 {
+  font-size: 30px;
+  @media only screen and ( max-width: $textBreak){
+    font-size: 24px;
+  }
+}
+
+
+
+.h4, h4 {
+  color: get-color('text-color');
+  font-size: 20px;
+  font-family: $font1;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 7px;
+  line-height: 1;
+  @media only screen and ( max-width: $textBreak){
+    font-size:18px;
+  }
+}
+
+.h5, h5 {
+  font-size: 18px;
+  @media only screen and ( max-width: $textBreak){
+    font-size: 16px;
+  }
+}
+
+.h6, h6 {
+  font-size: 16px;
+}
+
+
+.headingTitle{
+  border-bottom: 1px solid #333;
+}

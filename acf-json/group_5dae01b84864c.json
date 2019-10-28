@@ -1,0 +1,61 @@
+{
+    "key": "group_5dae01b84864c",
+    "title": "Block: Header Bar",
+    "fields": [
+        {
+            "key": "field_5dae01cb48870",
+            "label": "Select Menu",
+            "name": "header_bar_menu",
+            "type": "get_nav",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "font_size": 14
+        },
+        {
+            "key": "field_5dae03f2575c5",
+            "label": "Background Color",
+            "name": "header_bar_background_color",
+            "type": "color_picker",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "block",
+                "operator": "==",
+                "value": "acf\/block-header-bar"
+            }
+        ],
+        [
+            {
+                "param": "block",
+                "operator": "==",
+                "value": "acf\/block-togglenav"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1571686155
+}

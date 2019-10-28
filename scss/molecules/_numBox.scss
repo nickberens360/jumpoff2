@@ -1,0 +1,26 @@
+/* scss/molecules/_numBox.scss */
+
+.numBox {
+  max-width: 215px;
+}
+
+.numBox__num {
+  color: get-color('orange');
+  font-size: 55px;
+  margin-bottom: $base/4;
+}
+
+.numBox__title {
+  font-family: $font1;
+  font-size: 20px;
+  margin-bottom: $base/4;
+}
+
+.numBox__content {
+  font-size: 16px;
+}
+
+.numBox__link {
+  text-transform: uppercase;
+  text-decoration: underline;
+}

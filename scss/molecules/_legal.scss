@@ -1,0 +1,16 @@
+/* scss/molecules/_legal.scss */
+
+.legal{
+  margin-top: $base*2;
+  padding-top: 30px;
+  text-align: center;
+  border-top: 1px solid;
+  p{
+    margin-bottom: $base/2;
+  }
+  a{
+    text-decoration: underline;
+  }
+}
+
+

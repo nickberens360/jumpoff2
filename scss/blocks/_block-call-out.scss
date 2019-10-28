@@ -1,0 +1,29 @@
+/* scss/blocks/_block-call-out.scss */
+
+.block-call-out {
+  .block__inner {
+    max-width: 650px;
+    position: relative;
+  }
+}
+
+.block-call-out__content {
+  font-size: 20px;
+}
+
+.block-call-out__sub {
+  color: get-color('text-color');
+  position: absolute;
+  left: -243px;
+  top: 10px;
+}
+
+@media only screen and ( max-width: 1180px ){
+  .block-call-out__sub {
+    color: get-color('text-color');
+    position: relative;
+    left: 0;
+    top: 0;
+  }
+}
+

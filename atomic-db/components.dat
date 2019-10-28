@@ -1,0 +1,378 @@
+[
+    {
+        "component": "buttons",
+        "category": "siteButtons",
+        "description": "",
+        "backgroundColor": "",
+        "order": 0,
+        "has_js": "false"
+    },
+    {
+        "component": "form-misc",
+        "category": "siteForms",
+        "description": "",
+        "backgroundColor": "",
+        "order": 4,
+        "has_js": "false"
+    },
+    {
+        "component": "headings",
+        "category": "siteHeadings",
+        "description": "",
+        "backgroundColor": "#ffffff",
+        "order": 0,
+        "has_js": "false"
+    },
+    {
+        "component": "grid",
+        "category": "layout",
+        "description": "",
+        "backgroundColor": "",
+        "order": "2",
+        "has_js": "false"
+    },
+    {
+        "component": "matchheight",
+        "category": "layout",
+        "description": "",
+        "backgroundColor": "",
+        "order": "4",
+        "has_js": "false"
+    },
+    {
+        "component": "navMain",
+        "category": "molecules",
+        "description": "",
+        "backgroundColor": "",
+        "order": 5,
+        "has_js": "true"
+    },
+    {
+        "component": "footerMain",
+        "category": "organisms",
+        "description": "",
+        "backgroundColor": "",
+        "order": 0,
+        "has_js": "false"
+    },
+    {
+        "component": "headerMain",
+        "category": "organisms",
+        "description": "",
+        "backgroundColor": "",
+        "order": 3,
+        "has_js": "false"
+    },
+    {
+        "component": "col",
+        "category": "variables",
+        "description": "",
+        "backgroundColor": "",
+        "order": 1,
+        "has_js": "false"
+    },
+    {
+        "component": "colors",
+        "category": "siteColors",
+        "description": "",
+        "backgroundColor": "",
+        "order": 0,
+        "has_js": "false"
+    },
+    {
+        "component": "vertical-rhythm",
+        "category": "variables",
+        "description": "",
+        "backgroundColor": "",
+        "order": 3,
+        "has_js": "false"
+    },
+    {
+        "component": "wrap",
+        "category": "variables",
+        "description": "",
+        "backgroundColor": "",
+        "order": 4,
+        "has_js": "false"
+    },
+    {
+        "component": "dropit",
+        "category": "vendor",
+        "description": "",
+        "backgroundColor": "",
+        "order": -17,
+        "has_js": "false"
+    },
+    {
+        "component": "cleanup",
+        "category": "misc",
+        "description": "",
+        "backgroundColor": "",
+        "order": -18,
+        "has_js": "false"
+    },
+    {
+        "component": "atomic-head",
+        "category": "atomicHead",
+        "description": "",
+        "backgroundColor": "",
+        "order": -22,
+        "has_js": "false"
+    },
+    {
+        "component": "fonts",
+        "category": "siteFonts",
+        "description": "",
+        "backgroundColor": "",
+        "order": 0,
+        "has_js": "false"
+    },
+    {
+        "component": "textarea",
+        "category": "siteForms",
+        "description": "",
+        "backgroundColor": "",
+        "order": 2,
+        "has_js": "false"
+    },
+    {
+        "component": "form-input",
+        "category": "siteForms",
+        "description": "",
+        "backgroundColor": "",
+        "order": 0,
+        "has_js": "false"
+    },
+    {
+        "component": "selectbox",
+        "category": "siteForms",
+        "description": "",
+        "backgroundColor": "",
+        "order": 1,
+        "has_js": "false"
+    },
+    {
+        "component": "checkbox",
+        "category": "siteForms",
+        "description": "",
+        "backgroundColor": "",
+        "order": 3,
+        "has_js": "false"
+    },
+    {
+        "component": "label",
+        "category": "siteForms",
+        "description": "",
+        "backgroundColor": "",
+        "order": -26,
+        "has_js": "false"
+    },
+    {
+        "component": "headList",
+        "category": "molecules",
+        "description": "",
+        "backgroundColor": "#ffffff",
+        "order": 3,
+        "has_js": "false"
+    },
+    {
+        "component": "legal",
+        "category": "molecules",
+        "description": "",
+        "backgroundColor": "#ffffff",
+        "order": 1,
+        "has_js": "false"
+    },
+    {
+        "component": "siteGutter",
+        "category": "variables",
+        "description": "",
+        "backgroundColor": "",
+        "order": -40,
+        "has_js": "false"
+    },
+    {
+        "component": "excerptBox",
+        "category": "molecules",
+        "description": "",
+        "backgroundColor": "",
+        "order": 0,
+        "has_js": "false"
+    },
+    {
+        "component": "siteLogo",
+        "category": "molecules",
+        "description": "",
+        "backgroundColor": "",
+        "order": -26,
+        "has_js": "false"
+    },
+    {
+        "component": "bootstrap",
+        "category": "vendor",
+        "description": "",
+        "backgroundColor": "",
+        "order": -25,
+        "has_js": "false"
+    },
+    {
+        "component": "block-testimonial",
+        "category": "blocks",
+        "description": "",
+        "backgroundColor": "",
+        "order": 14,
+        "has_js": "false"
+    },
+    {
+        "component": "block-base",
+        "category": "blocks",
+        "description": "",
+        "backgroundColor": "",
+        "order": 13,
+        "has_js": "false"
+    },
+    {
+        "component": "block-dynamic-type",
+        "category": "blocks",
+        "description": "",
+        "backgroundColor": "",
+        "order": 12,
+        "has_js": "false"
+    },
+    {
+        "component": "block-social",
+        "category": "blocks",
+        "description": "",
+        "backgroundColor": "",
+        "order": 11,
+        "has_js": "false"
+    },
+    {
+        "component": "block-call-out",
+        "category": "blocks",
+        "description": "",
+        "backgroundColor": "",
+        "order": 10,
+        "has_js": "false"
+    },
+    {
+        "component": "headingLine",
+        "category": "siteHeadings",
+        "description": "",
+        "backgroundColor": "",
+        "order": -31,
+        "has_js": "false"
+    },
+    {
+        "component": "block-mailchimp",
+        "category": "blocks",
+        "description": "",
+        "backgroundColor": "",
+        "order": 9,
+        "has_js": "false"
+    },
+    {
+        "component": "block-image-row",
+        "category": "blocks",
+        "description": "",
+        "backgroundColor": "",
+        "order": 8,
+        "has_js": "false"
+    },
+    {
+        "component": "numBox",
+        "category": "molecules",
+        "description": "",
+        "backgroundColor": "",
+        "order": -34,
+        "has_js": "false"
+    },
+    {
+        "component": "block-stats",
+        "category": "blocks",
+        "description": "",
+        "backgroundColor": "",
+        "order": 7,
+        "has_js": "false"
+    },
+    {
+        "component": "block-footer-small",
+        "category": "blocks",
+        "description": "",
+        "backgroundColor": "",
+        "order": 6,
+        "has_js": "false"
+    },
+    {
+        "component": "block-typography",
+        "category": "blocks",
+        "description": "",
+        "backgroundColor": "",
+        "order": 5,
+        "has_js": "false"
+    },
+    {
+        "component": "block-link-bar",
+        "category": "blocks",
+        "description": "",
+        "backgroundColor": "",
+        "order": 3,
+        "has_js": "false"
+    },
+    {
+        "component": "block-toggleNav",
+        "category": "blocks",
+        "description": "",
+        "backgroundColor": "",
+        "order": 2,
+        "has_js": "false"
+    },
+    {
+        "component": "block-banner",
+        "category": "blocks",
+        "description": "",
+        "backgroundColor": "",
+        "order": 1,
+        "has_js": "false"
+    },
+    {
+        "component": "page",
+        "category": "layout",
+        "description": "",
+        "backgroundColor": "",
+        "order": -41,
+        "has_js": "false"
+    },
+    {
+        "component": "block-header-bar",
+        "category": "blocks",
+        "description": "",
+        "backgroundColor": "",
+        "order": 0,
+        "has_js": "false"
+    },
+    {
+        "component": "postBox",
+        "category": "molecules",
+        "description": "",
+        "backgroundColor": "",
+        "order": -43,
+        "has_js": "false"
+    },
+    {
+        "component": "block-recent-posts",
+        "category": "blocks",
+        "description": "",
+        "backgroundColor": "",
+        "order": 4,
+        "has_js": "false"
+    },
+    {
+        "component": "global-ui",
+        "category": "pages",
+        "description": "",
+        "backgroundColor": "",
+        "order": -45,
+        "has_js": "false"
+    }
+]

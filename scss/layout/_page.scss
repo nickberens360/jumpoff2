@@ -1,0 +1,65 @@
+/* scss/layout/_page.scss */
+
+.has-fixed-header {
+  .page__headingBanner {
+    padding-top: 150px;
+  }
+}
+
+.page__headingBanner {
+  text-align: center;
+  padding: 100px $siteGutter;
+  margin-bottom: 0 !important;
+  //background: #021d31;
+  color: #fff !important;
+  background-image: url(https://itcouldbeme.dev/wp-content/uploads/2019/10/asphalt-blur-clouds-388304.jpg);
+  background-position: center;
+  position: relative;
+  span {
+    position: relative;
+    z-index: 1;
+  }
+  &:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(41, 38, 38, 0.77);
+  }
+}
+
+$contentWidth: 1100px;
+
+.contentWrap {
+  padding: 100px $siteGutter;
+}
+
+.contentWrap__inner {
+  max-width: $contentWidth;
+  margin: auto;
+}
+
+.wp-block-group__inner-container {
+  padding: 100px $siteGutter;
+  max-width: 800px;
+  margin: auto;
+}
+
+
+.alignwide {
+  max-width: 800px;
+  margin: auto;
+}
+
+.alignfull {
+  max-width: 100%;
+  .wp-block-group__inner-container {
+    max-width: 100%;
+  }
+}
+
+
+
+

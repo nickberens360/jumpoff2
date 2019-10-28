@@ -1,0 +1,14 @@
+/* scss/blocks/_block-footer-small.scss */
+
+.block-footer-small {
+  text-align: center;
+  padding: 20px $siteGutter;
+  background-color: #eee;
+  p {
+    margin-bottom: 0;
+  }
+  img {
+    width: 116px;
+    height: auto;
+  }
+}

@@ -1,0 +1,18 @@
+/*scss/molecules/_navMain.scss*/
+
+
+
+.navMain{
+  .navbar-toggle{
+    border: 1px solid get-color('text-color');
+    .icon-bar {
+      background: get-color('text-color');
+    }
+  }
+}
+
+
+
+
+
+

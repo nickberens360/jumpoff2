@@ -1,0 +1,73 @@
+/* scss/pages/_global-ui.scss */
+
+.tax-ui_type {
+  .header-toggleNav {
+    position: relative;
+    background: #7f7f7f;
+    top: 0;
+  }
+  .toggleMenuWrap {
+    position: absolute;
+    top: -18px;
+    height: 100vh;
+  }
+}
+
+
+.globalBox {
+  .acf-form {
+    display: flex;
+    align-items: center;
+  }
+  .acf-field {
+    padding: 0 !important;
+    label {
+      font-weight: 400 !important;
+      font-size: 16px;
+    }
+  }
+  .acf-label {
+    margin-bottom: 0 !important;
+  }
+  .acf-field-true-false {
+    display: flex;
+    align-items: center;
+  }
+  .acf-input {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  .acf-button {
+    border: none !important;
+    padding: 0 !important;
+    background: none !important;
+    font-size: 14px !important;
+    color: #778cff !important;
+    font-weight: bold !important;
+    border-bottom: 2px solid !important;
+    text-transform: uppercase;
+    position: relative;
+    top: -4px !important;
+  }
+  .updated {
+    p {
+      margin-bottom: 0;
+      font-size: 14px;
+      margin-right: 10px;
+      color: #1ea83e;
+    }
+  }
+}
+
+.globalBox__content {
+  padding: 30px 20px 10px 20px;
+  display: flex;
+  align-items: baseline;
+}
+
+
+.globalBox__name {
+  margin-bottom: 0;
+  margin-right: 30px;
+  font-weight: bold;
+}

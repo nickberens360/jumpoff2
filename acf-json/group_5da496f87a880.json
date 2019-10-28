@@ -1,0 +1,224 @@
+{
+    "key": "group_5da496f87a880",
+    "title": "Block: Typography",
+    "fields": [
+        {
+            "key": "field_5da5e2b2fdf83",
+            "label": "Body",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_5da49b176c1a9",
+            "label": "Body Style",
+            "name": "body_style",
+            "type": "Typography",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "display_properties": [
+                "font_size",
+                "font_family",
+                "font_weight",
+                "text_color"
+            ],
+            "required_properties": "",
+            "font_size": 15,
+            "font_family": "Arial, Helvetica, sans-serif",
+            "font_weight": 400,
+            "font_style": "normal",
+            "font_variant": "normal",
+            "font_stretch": "normal",
+            "line_height": "",
+            "letter_spacing": 0,
+            "text_align": "left",
+            "text_color": "#000",
+            "text_decoration": "none",
+            "text_transform": "none"
+        },
+        {
+            "key": "field_5da5e2c5fdf84",
+            "label": "Headings",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_5da4971842df8",
+            "label": "Heading Styles",
+            "name": "heading_styles",
+            "type": "repeater",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "collapsed": "",
+            "min": 0,
+            "max": 0,
+            "layout": "table",
+            "button_label": "",
+            "sub_fields": [
+                {
+                    "key": "field_5da499d86aaff",
+                    "label": "Heading Font",
+                    "name": "heading_font",
+                    "type": "Typography",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "display_properties": [
+                        "font_size",
+                        "font_family",
+                        "font_weight",
+                        "font_style",
+                        "line_height",
+                        "letter_spacing",
+                        "text_color",
+                        "text_transform"
+                    ],
+                    "required_properties": "",
+                    "font_size": 15,
+                    "font_family": "Open Sans",
+                    "font_weight": 400,
+                    "font_style": "normal",
+                    "font_variant": "normal",
+                    "font_stretch": "normal",
+                    "line_height": "",
+                    "letter_spacing": 0,
+                    "text_align": "left",
+                    "text_color": "#000",
+                    "text_decoration": "none",
+                    "text_transform": "none"
+                },
+                {
+                    "key": "field_5da49a846ab00",
+                    "label": "Heading Item",
+                    "name": "heading_item",
+                    "type": "select",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "h1": "Heading 1",
+                        "h2": "Heading 2",
+                        "h3": "Heading 3",
+                        "h4": "Heading 4",
+                        "h5": "Heading 5"
+                    },
+                    "default_value": [],
+                    "allow_null": 0,
+                    "multiple": 0,
+                    "ui": 0,
+                    "return_format": "value",
+                    "ajax": 0,
+                    "placeholder": ""
+                }
+            ]
+        },
+        {
+            "key": "field_5da5e2d2fdf85",
+            "label": "Links",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_5da49b586c1aa",
+            "label": "Link Style",
+            "name": "link_style",
+            "type": "Typography",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "display_properties": [
+                "font_weight",
+                "font_style",
+                "text_color",
+                "text_decoration"
+            ],
+            "required_properties": "",
+            "font_size": 15,
+            "font_family": "Arial, Helvetica, sans-serif",
+            "font_weight": 400,
+            "font_style": "normal",
+            "font_variant": "normal",
+            "font_stretch": "normal",
+            "line_height": "",
+            "letter_spacing": 0,
+            "text_align": "left",
+            "text_color": "#000",
+            "text_decoration": "none",
+            "text_transform": "none"
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "block",
+                "operator": "==",
+                "value": "acf\/typography"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1571152608
+}

@@ -1,0 +1,68 @@
+/* scss/blocks/_block-stats.scss */
+
+.block.block-stats {
+  .block__inner {
+    max-width: 1140px;
+  }
+  .block__heading {
+    font-size: 55px;
+  }
+}
+
+.block-stats__row {
+  display: flex;
+}
+
+.block-stats__row-left {
+  flex: 1 0 25%;
+  max-width: 25%;
+}
+
+.block-stats__row-right {
+  flex: 1 0 75%;
+  max-width: 75%;
+}
+
+.nunBoxRow {
+  display: flex;
+  justify-content: space-between;
+}
+
+.numBoxRow__item {
+  padding: 0 10px;
+}
+
+@media only screen and ( max-width: 917px ){
+  .block-stats__row {
+    display: block;
+  }
+
+  .block-stats__row-left {
+    flex: none;
+    max-width: 100%;
+  }
+
+  .block-stats__row-right {
+    flex: none;
+    max-width: 100%;
+  }
+}
+
+@media only screen and ( max-width: 627px ){
+  .nunBoxRow {
+    display: block;
+  }
+
+  .numBoxRow__item {
+    padding: 0;
+    .numBox {
+      max-width: 100%;
+      margin-bottom: $base*2;
+    }
+    &:last-of-type {
+      .numBox {
+        margin-bottom: 0;
+      }
+    }
+  }
+}

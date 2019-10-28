@@ -1,0 +1,16 @@
+/*scss/organisms/_footerMain.scss*/
+
+.footerMain{
+  padding: $base $siteGutter;
+  p {
+    margin-bottom: 0;
+
+  }
+  img {
+    width: 116px;
+    height: auto;
+  }
+}
+.footerMain__inner{
+  @extend .wrap;
+}

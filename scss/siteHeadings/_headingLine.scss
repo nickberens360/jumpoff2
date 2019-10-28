@@ -1,0 +1,45 @@
+/* scss/siteHeadings/_headingLine.scss */
+
+.headingLine {
+  position: relative;
+  font-size: 75px;
+  color: get-color('black');
+  max-width: 540px;
+  &:after {
+    content: "";
+    height: 15px;
+    display: block;
+    max-width: 160px;
+    margin: 35px 0;
+    background: get-color('black');
+    border-top: 5px solid get-color('orange');
+    border-bottom: 5px solid get-color('orange');
+  }
+  &.headingLine-sml {
+    font-size: 45px;
+    &:after {
+      margin-top: 20px;
+    }
+  }
+  &.headingLine-alt {
+    font-size: 35px;
+    color: get-color('teal');
+    max-width: 100%;
+    &:after {
+      display: none;
+    }
+  }
+}
+
+@media only screen and ( max-width: $textBreak){
+  .headingLine {
+    font-size: 55px;
+    &.headingLine-sml {
+      font-size: 35px;
+    }
+    &.headingLine-alt {
+      font-size: 24px;
+    }
+  }
+}
+

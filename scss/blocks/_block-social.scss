@@ -1,0 +1,21 @@
+/* scss/blocks/_block-social.scss */
+
+.block-social {
+  text-align: center;
+  .block__title {
+    font-size: 35px;
+  }
+}
+
+.block-social__links {
+  margin-bottom: 40px;
+  a {
+    font-size: 50px;
+    &:first-of-type {
+      margin-right: 50px;
+    }
+    &:last-of-type {
+      margin-left: 50px;
+    }
+  }
+}

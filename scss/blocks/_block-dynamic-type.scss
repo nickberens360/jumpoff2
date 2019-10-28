@@ -1,0 +1,116 @@
+/* scss/blocks/_block-dynamic-type.scss */
+
+.block-dynamic-type {
+  position: relative;
+  background-size: cover;
+  background-position: center center;
+  height: 90vh;
+  padding: 0 15px;
+  &:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+
+  .typity {
+    //display: inline-block;
+    font-family: $font2;
+    color: #fff;
+    font-size: 70px;
+    font-weight: bold;
+    border-bottom: 5px solid #f6bf3f;
+  }
+}
+
+
+.block-dynamic-type__content {
+  position: relative;
+  z-index: 1;
+  top: 40%;
+  transform: translateY(-40%);
+  text-align: center;
+}
+
+.block-dynamic-type__logo {
+  position: absolute;
+  z-index: 1;
+  bottom: 60px;
+  left: 0;
+  right: 0;
+  text-align: center;
+
+  img {
+    max-width: 440px;
+    width: 100%;
+  }
+  &.block-dynamic-type__logo-arrow {
+    bottom: 20px;
+  }
+}
+
+.downArrow {
+  position: relative;
+  top: 50px;
+  height: 75px;
+  width: 75px;
+  line-height: 75px;
+  font-size: 50px;
+  border-radius: 50%;
+  transition: all .25s;
+  background: #fff;
+  color:  get-color('teal');
+  display: inline-block;
+  box-shadow: 0px 2px 10px -3px rgba(0, 0, 0, 0.75);
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-name: bounce-2;
+  animation-timing-function: ease;
+  &:hover {
+    background: get-color('teal');
+    color: #fff;
+  }
+}
+
+@keyframes bounce-2 {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@media only screen and (max-width: 975px) {
+  .block-dynamic-type {
+    .typity {
+      font-size: 50px;
+    }
+  }
+  .block-dynamic-type__logo {
+    img {
+      max-width: 340px;
+    }
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .block-dynamic-type {
+    .typity {
+      font-size: 40px;
+    }
+  }
+  .block-dynamic-type__logo {
+    img {
+      max-width: 240px;
+    }
+  }
+}
+
+
+
