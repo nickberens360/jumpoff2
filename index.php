@@ -7,7 +7,6 @@ query_global_ui(
     )
 );
 ?>
-
     <nav class="greedy">
         <ul class="block-linkBar links">
             <?php if (is_home()) {
@@ -80,7 +79,7 @@ query_global_ui(
                         <div class="postBox">
                             <div class="postBox__vidImg">
                                 <?php if (get_field('video')) { ?>
-                                    <img src="https://img.youtube.com/vi/<?= acf_get_video_id('video') ?>/hqdefault.jpg" alt="">
+                                    <img src="https://img.youtube.com/vi/<?= get_video_id('video') ?>/hqdefault.jpg" alt="">
                                 <?php } else {
                                     the_post_thumbnail('medium');
                                 } ?>
@@ -104,3 +103,4 @@ query_global_ui(
 <?php
 get_footer();
 ?>
+<script type="text/javascript" src="<?= TEMPLATE_URI .'/template-parts/blocks/block-link-bar/block-link-bar.js' ?> "></script>

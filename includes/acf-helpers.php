@@ -65,7 +65,7 @@ add_filter('acf/settings/load_json', function ($paths) {
  * @param null $blockName
  * @return bool
  */
-function acf_block_exists($content=null, $blockName=null ) {
+function block_exists($content=null, $blockName=null ) {
 
     $blocks  = parse_blocks($content);
 
@@ -84,7 +84,7 @@ function acf_block_exists($content=null, $blockName=null ) {
     }
 }
 
-function acf_get_video_id($field) {
+function get_video_id($field) {
     $video = get_field( $field );
 
     preg_match('/src="(.+?)"/', $video, $matches_url );

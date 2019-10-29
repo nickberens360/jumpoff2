@@ -25,6 +25,7 @@ define('ATOMIC_SIDEBARS', ATOMIC . 'sidebars');
 define('ATOMIC_PAGE', ATOMIC . 'pages');
 
 define('TEMPLATE_PATH', get_template_directory());
+define('TEMPLATE_URI', get_template_directory_uri());
 
 
 function theme_js()
