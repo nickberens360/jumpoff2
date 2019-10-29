@@ -53,7 +53,7 @@ const iconArgs = array(
     'src' => 'screenoptions',
 );
 
-
+//TODO: Move render_template to the render callback
 function register_acf_block_types()  {
 
     // register a small footer block.
@@ -195,13 +195,6 @@ function register_acf_block_types()  {
         'icon' => iconArgs,
         'keywords'          => array( 'Banner'),
     ));
-
-
-
-
-
-
-
 
 }
 
