@@ -55,28 +55,28 @@ $useSocial = get_field('add_social_media');
 <style>
 
     #<?= $id ?> .toggleMenu__trigger {
-        <?= acf_build_style('toggle_nav_trigger_color', 'color', false); ?>
-        <?= acf_build_style('nav_trigger_font_size', 'font-size', 'px'); ?>
+        <?= build_style('toggle_nav_trigger_color', 'color', false); ?>
+        <?= build_style('nav_trigger_font_size', 'font-size', 'px'); ?>
     }
 
     #<?= $id ?> .toggleMenuWrap {
-        <?= acf_build_style('toggle_nav_background_color', 'background-color', false); ?>
+        <?= build_style('toggle_nav_background_color', 'background-color', false); ?>
     }
 
     #<?= $id ?>.block-toggleNav:after {
-        <?= acf_build_style('toggle_nav_overlay_color', 'background-color', false); ?>
+        <?= build_style('toggle_nav_overlay_color', 'background-color', false); ?>
     }
 
     #<?= $id ?> .toggleMenuWrap ul a {
-        <?= acf_build_style('toggle_nav_link_color', 'color', false); ?>
+        <?= build_style('toggle_nav_link_color', 'color', false); ?>
     }
 
     #<?= $id ?> .toggleMenuWrap ul a:hover {
-        <?= acf_build_style('toggle_nav_link_hover_color', 'color', false); ?>
+        <?= build_style('toggle_nav_link_hover_color', 'color', false); ?>
     }
 
     #<?= $id ?> .toggleMenuWrap ul a {
-        <?= acf_build_style('toggle_nav_link_font_size', 'font-size', 'px'); ?>
+        <?= build_style('toggle_nav_link_font_size', 'font-size', 'px'); ?>
     }
 
 

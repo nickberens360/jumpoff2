@@ -10,7 +10,7 @@ $className = $name;
 ?>
 
 
-<?php include( locate_template( '/block-parts/opening.php', false, false ) ); ?>
+<?php include TEMPLATE_PATH.'/block-parts/opening.php'; ?>
         <form id="mc4wp-form-1" class="mc4wp-form mc4wp-form-311" method="post" data-id="311" data-name="Mailchimp Signup Form">
             <div class="mc4wp-form-fields">
                 <p>
@@ -25,7 +25,7 @@ $className = $name;
                 <input type="text" name="_mc4wp_honeypot" value="" tabindex="-1" autocomplete="off"></label><input type="hidden" name="_mc4wp_timestamp" value="1570463547"><input type="hidden" name="_mc4wp_form_id" value="311"><input type="hidden" name="_mc4wp_form_element_id" value="mc4wp-form-1">
             <div class="mc4wp-response"></div>
         </form>
-<?php include( locate_template( '/block-parts/closing.php', false, false ) ); ?>
+<?php include TEMPLATE_PATH.'/block-parts/closing.php'; ?>
 
-<?php include( locate_template( '/block-parts/settings.php', false, false ) ); ?>
+<?php include TEMPLATE_PATH.'/block-parts/settings.php'; ?>
 

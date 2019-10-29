@@ -25,6 +25,6 @@ $id =  $block['id'];
 
 <style>
     #<?= $id ?> {
-    <?= acf_build_style('header_bar_background_color', 'background-color', false); ?>
+    <?= build_style('header_bar_background_color', 'background-color', false); ?>
     }
 </style>

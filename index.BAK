@@ -53,30 +53,30 @@ if ($the_query->have_posts()) {
 
 wp_reset_postdata();
 
-echo acf_build_style($banner_background_image, 'background-image', 'image', false, true);
+echo build_style($banner_background_image, 'background-image', 'image', false, true);
 
 ?>
 
     <style>
         .banner {
         <?php if ($bgSelected == 'color') { ?>
-        <?= acf_build_style($banner_background_color, 'background-color', false, false, true); ?>
+        <?= build_style($banner_background_color, 'background-color', false, false, true); ?>
         <?php } ?>
         <?php if ($bgSelected == 'image') { ?>
-        <?= acf_build_style($banner_background_image, 'background-image', 'image', false, true); ?>
-        <?= acf_build_style($banner_background_size, 'background-size', false, false, true); ?>
-        <?= acf_build_style($banner_background_position, 'background-position', false, false, true); ?>
+        <?= build_style($banner_background_image, 'background-image', 'image', false, true); ?>
+        <?= build_style($banner_background_size, 'background-size', false, false, true); ?>
+        <?= build_style($banner_background_position, 'background-position', false, false, true); ?>
         <?php } ?>}
 
         <?php if($banner_background_overlay) { ?>
         .banner::after {
-         <?= acf_build_style($banner_background_overlay, 'background', false, false, true); ?>
+         <?= build_style($banner_background_overlay, 'background', false, false, true); ?>
          }
         <?php } ?>
 
         <?php if($banner_custom_color) { ?>
         .banner .banner__heading, .banner .banner__sub   {
-          <?= acf_build_style($banner_custom_color, 'color', false, false, true); ?>
+          <?= build_style($banner_custom_color, 'color', false, false, true); ?>
           }
         <?php } ?>
     </style>

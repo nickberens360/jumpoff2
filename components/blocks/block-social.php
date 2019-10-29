@@ -10,7 +10,7 @@ $className = $name;
 
 
 
-<?php include( locate_template( '/block-parts/opening.php', false, false ) ); ?>
+<?php include TEMPLATE_PATH.'/block-parts/opening.php'; ?>
         <div class="block-social__links">
             <?php if( have_rows('social_links', 'option') ): ?>
                 <?php  while ( have_rows('social_links', 'option') ) : the_row(); ?>
@@ -21,7 +21,7 @@ $className = $name;
         <div class="block-social__footer">
             <?php the_field('social_footer'); ?>
         </div>
-<?php include( locate_template( '/block-parts/closing.php', false, false ) ); ?>
+<?php include TEMPLATE_PATH.'/block-parts/closing.php'; ?>
 
-<?php include( locate_template( '/block-parts/settings.php', false, false ) ); ?>
+<?php include TEMPLATE_PATH.'/block-parts/settings.php'; ?>
 

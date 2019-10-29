@@ -32,7 +32,7 @@ if ($useArrow) {
 
 <style>
     .block-dynamic-type:after {
-    <?= acf_build_style('overlay', 'background-color', false); ?>
+    <?= build_style('overlay', 'background-color', false); ?>
     }
 </style>
 

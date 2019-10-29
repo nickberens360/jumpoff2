@@ -6,7 +6,7 @@
 
 <style>
     .block-footer-small {
-         <?= acf_build_style('footer_small_background_color', 'background-color', false); ?>
+         <?= build_style('footer_small_background_color', 'background-color', false); ?>
     }
 </style>
 

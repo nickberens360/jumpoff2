@@ -52,6 +52,6 @@ $id = $name.'-'. $block['id'];
 
 <style>
     #<?= $id ?> {
-    <?= acf_build_style('link_bar_background_color', 'background-color', false); ?>
+    <?= build_style('link_bar_background_color', 'background-color', false); ?>
     }
 </style>

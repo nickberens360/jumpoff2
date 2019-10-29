@@ -38,7 +38,7 @@ $image = get_field('image') ?: 295;
 
 ?>
 
-<?php include( locate_template( '/block-parts/opening.php', false, false ) ); ?>
+<?php include TEMPLATE_PATH.'/block-parts/opening.php'; ?>
 
     <blockquote class="testimonial-blockquote">
         <span class="testimonial-text"><?= $text; ?> </span>
@@ -48,6 +48,6 @@ $image = get_field('image') ?: 295;
     <div class="testimonial-image">
         <?= wp_get_attachment_image( $image, 'full' ); ?>
     </div>
-<?php include( locate_template( '/block-parts/settings.php', false, false ) ); ?>
+<?php include TEMPLATE_PATH.'/block-parts/settings.php'; ?>
 
-<?php include( locate_template( '/block-parts/closing.php', false, false ) ); ?>
+<?php include TEMPLATE_PATH.'/block-parts/closing.php'; ?>

@@ -49,25 +49,25 @@ $align_class = $block['align'] ? 'align' . $block['align'] : '';
 
 <style>
   #<?= $id ?>.banner {
-  <?= acf_build_style('banner_height', 'height', false, 'vh'); ?>
+  <?= build_style('banner_height', 'height', false, 'vh'); ?>
   <?php if ($bgSelected == 'color') { ?>
-  <?= acf_build_style('banner_background_color', 'background-color', false, false); ?>
+  <?= build_style('banner_background_color', 'background-color', false, false); ?>
   <?php } ?>
   <?php if ($bgSelected == 'image') { ?>
-  <?= acf_build_style('banner_background_image', 'background-image', 'image', false); ?>
-  <?= acf_build_style('banner_background_size', 'background-size', false, false); ?>
-  <?= acf_build_style('banner_background_position', 'background-position', false, false); ?>
+  <?= build_style('banner_background_image', 'background-image', 'image', false); ?>
+  <?= build_style('banner_background_size', 'background-size', false, false); ?>
+  <?= build_style('banner_background_position', 'background-position', false, false); ?>
   <?php } ?>}
 
   <?php if(get_field('banner_background_overlay')) { ?>
   #<?= $id ?>.banner::after {
-   <?= acf_build_style('banner_background_overlay', 'background', false, false); ?>
+   <?= build_style('banner_background_overlay', 'background', false, false); ?>
    }
   <?php } ?>
 
   <?php if(get_field('banner_custom_color')) { ?>
   #<?= $id ?>.banner .banner__heading, #<?= $id ?>.banner .banner__sub   {
-   <?= acf_build_style('banner_custom_color', 'color', false, false); ?>
+   <?= build_style('banner_custom_color', 'color', false, false); ?>
    }
   <?php } ?>
 

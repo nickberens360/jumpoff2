@@ -16,12 +16,10 @@
 
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Oswald:400,700&display=swap" rel="stylesheet">
 
-    <?php if (is_singular('global_ui')) {
+    <?php if ($post->post_type == "global_ui") {
         echo '<meta name="robots" content="noindex,nofollow">';
     } ?>
 
-
-    <!--<script src="https://kit.fontawesome.com/c189e31f6d.js" crossorigin="anonymous"></script>-->
 
 
     <!--[if lt IE 9]>

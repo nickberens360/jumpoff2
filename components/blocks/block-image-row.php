@@ -9,7 +9,7 @@ $className = $name;
 ?>
 
 
-<?php include( locate_template( '/block-parts/opening.php', false, false ) ); ?>
+<?php include TEMPLATE_PATH.'/block-parts/opening.php'; ?>
 
         <div class="imgRow">
 
@@ -39,13 +39,13 @@ $className = $name;
             <?php endif; ?>
         </div>
 
-<?php include( locate_template( '/block-parts/closing.php', false, false ) ); ?>
+<?php include TEMPLATE_PATH.'/block-parts/closing.php'; ?>
 
-<?php include( locate_template( '/block-parts/settings.php', false, false ) ); ?>
+<?php include TEMPLATE_PATH.'/block-parts/settings.php'; ?>
 
 <style>
     #<?= $id ?> .imgRow__item {
-         <?= acf_build_style('images_width', 'max-width', 'px'); ?>
+         <?= build_style('images_width', 'max-width', 'px'); ?>
     }
 </style>
 

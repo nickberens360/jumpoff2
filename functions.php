@@ -194,63 +194,6 @@ include 'block-registry/blocks-registry.php';
 
 
 
-
-
-
-
-
-
-
-/*function get_acf_block($postType=null, $postName=null, $blockName=null, $blockField=null) {
-
-    $args = array(
-        'post_type' => $postType,
-        'name' => $postName
-    );
-
-    $the_query = new WP_Query( $args );
-
-    if ( $the_query->have_posts() ) {
-        while ( $the_query->have_posts() ) {
-            $the_query->the_post();
-            $blockContent = get_the_content();
-        }
-
-    }
-    wp_reset_postdata();
-
-    $blocks  = parse_blocks($blockContent);
-    $collect = array();
-
-    foreach($blocks as $block){
-
-        acf_setup_meta( $block['attrs']['data'], $block['attrs']['id'], true );
-
-        $fields = get_fields();
-
-
-
-
-
-
-        $collect[$block['attrs']['id']] = $fields;
-
-
-
-        acf_reset_meta( $block['attrs']['id'] );
-
-    }
-    return $collect[$blockId][$blockName];
-}*/
-
-
-
-
-
-//function acf_block_exists($postType=null, $postName=null, $blockName=null ) {
-
-
-
 include TEMPLATE_PATH.'/global-ui/typography.php';
 include TEMPLATE_PATH.'/includes/acf-helpers.php';
 
@@ -264,8 +207,7 @@ include TEMPLATE_PATH.'/includes/acf-helpers.php';
  * @return bool|string
  */
 
-
-function acf_build_style($acf_field = null, $property = null, $propertyType = null, $suffix = null, $raw=null) {
+function build_style($acf_field = null, $property = null, $propertyType = null, $suffix = null, $raw=null) {
 
     if($raw == true) {
         $field = $acf_field;
@@ -310,7 +252,6 @@ function query_global_ui($args) {
         }
         wp_reset_postdata();
         return true;
-
     }
     else {
         wp_reset_postdata();
