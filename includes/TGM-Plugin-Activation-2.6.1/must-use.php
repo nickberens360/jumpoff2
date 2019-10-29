@@ -89,7 +89,7 @@ function jumpoff2_register_required_plugins() {
         // This presumes that the plugin code is based in the root of the GitHub repository
         // and not in a subdirectory ('/src') of the repository.
         array(
-            'name'      => 'Advanced Custom Fields: RGBA Color Field',
+            'name'      => 'Advanced Custom Field: RGBA Color Picker',
             'slug'      => 'acf-rgba-color',
             'source'    => 'https://github.com/reyhoun/acf-rgba-color/archive/master.zip',
             'required'  => true,
