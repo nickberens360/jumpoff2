@@ -197,6 +197,8 @@ include 'block-registry/blocks-registry.php';
 
 include TEMPLATE_PATH.'/global-ui/typography.php';
 include TEMPLATE_PATH.'/includes/acf-helpers.php';
+//include TEMPLATE_PATH.'/includes/TGM-Plugin-Activation-2.6.1/class-tgm-plugin-activation.php';
+include TEMPLATE_PATH.'/includes/TGM-Plugin-Activation-2.6.1/must-use.php';
 
 
 /**
