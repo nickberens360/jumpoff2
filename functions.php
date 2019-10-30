@@ -237,6 +237,8 @@ function build_style($acf_field = null, $property = null, $propertyType = null, 
 }
 
 
+
+
 /**
  * Returns the content for global ui elements such as the footer and header
  *

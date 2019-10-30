@@ -10714,10 +10714,12 @@ img.aligncenter {
 
 /* scss/blocks/_block-header-bar.scss */
 .block-header-bar {
+  position: relative;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 20px 40px;
+  z-index: 999;
 }
 
 .block-header-bar__logo {
@@ -10735,6 +10737,62 @@ img.aligncenter {
   display: block;
   align-items: center;
   padding: 0 10px;
+}
+
+.block-header-bar__trigger {
+  display: none;
+}
+
+@media only screen and (max-width: 1220px) {
+  .block-header-bar__trigger {
+    display: inline-block;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    padding-right: 30px;
+  }
+  .block-header-bar__nav {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    height: 100%;
+    max-width: 300px;
+    width: 100%;
+    align-self: stretch;
+    text-align: right;
+  }
+  .nav-row {
+    display: block;
+    padding: 10px 0;
+    text-align: left;
+    position: absolute;
+    box-shadow: -5px 10px 9px -2px rgba(0, 0, 0, 0.2);
+    right: 0;
+    top: -999999px;
+    background: #fff;
+    max-width: 300px;
+    width: 100%;
+    transform: scale(0.5);
+    transform-origin: 100% 0;
+    transition: transform .25s;
+  }
+  .nav-row a {
+    padding: 10px 20px;
+  }
+  .block-header-bar-open .nav-row {
+    top: 100%;
+    transform: scale(1);
+  }
+}
+
+@media only screen and (max-width: 497px) {
+  .block-header-bar__logo {
+    max-width: 200px;
+  }
+  .block-header-bar {
+    padding: 20px 15px;
+  }
 }
 
 /* scss/blocks/_block-banner.scss */

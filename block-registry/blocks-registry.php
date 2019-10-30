@@ -75,6 +75,7 @@ function register_acf_block_types()  {
         'category'          => 'wisnet-navigation',
         'icon' => iconArgs,
         'keywords'          => array( 'Header', 'Basic header bar' ),
+        'enqueue_script' => get_template_directory_uri() . '/template-parts/blocks/block-header-bar/block-header-bar.js'
     ));
 
 
